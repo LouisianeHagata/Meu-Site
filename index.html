@@ -2,38 +2,77 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>Pet Shop Stella</title>
-        <link rel="stylesheet"href="style.css">
-	</head>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
 
 	<body>
-        <header>
-           <h1 class="titulo-principal"> Pet Shop Stella</h1>
-        </header>
-    <img id="stock" src="stock.jpg">
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
 
-<div class="principal">
-		<h2 class="titulo-centralizado"> Sobre o Pet Shop Stella</h2>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-		<p>Localizado no Centro de Curitiba, próximo ao Shopping Estação o <strong>Pet Shop Stella</strong> vem proporcionando o que há de melhor para a saúde e bem-estar do seu pet. Inaugurado em Agosto de 2022, prezando sempre pelo conforto e qualidade de vida do seu pequeno companheiro.</p>
+		<img class="banner" src="banner.jpg">
 
-		<p id="missao" style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar uma vida alegre e saudável para o seu bichinho"</strong>.</em></p>
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre o Pet Shop Stella</h2>
 
-		<p>Médicos Veterinários responsáveis e antenados pela saúde do seu pet. Agendamentos de consulta online com retornos rápidos, garantindo qualidade e satisfação dos nossos clientes.</p>
-	
-</div>
+				<img class="utensilios" src="utensilios de veterinario.jpg" alt="Utensilios de um barbeiro.">
+		 
+                <p>Localizado no Centro de Curitiba, próximo ao Shopping Estação o <strong>Pet Shop Stella</strong> vem proporcionando o que há de melhor para a saúde e bem-estar do seu pet. Inaugurado em Agosto de 2022, prezando sempre pelo conforto e qualidade de vida do seu pequeno companheiro.</p>
 
-<div class="informações">
+				<p id="missao" style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar uma vida alegre e saudável para o seu bichinho"</strong>.</em></p>
 
-    <h3 class="titulo-centralizado">informações</h3>
-    <ul>
-        <li class="itens">Atendimento aos clientes</li>
-        <li class="itens">Consultas</li>
-        <li class="itens">Localização </li>
-        <li class="itens">Produtos</li>
-    </ul>
-     <img src="informações.jpg" class="informações">
+				<p>Médicos Veterinários responsáveis e antenados pela saúde do seu pet. Agendamentos de consulta online com retornos rápidos, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
 
-</div>
-    </body>
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado no centro de Curitiba.</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.0258587516714!2d-49.206283385713554!3d-25.47081198376963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfaaa3f486839%3A0xf298bcc9cb10b4d4!2sCol%C3%A9gio%20Estadual%20Professor%20Nilo%20Brand%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1665430093909!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+
+			<section class="informaçoes">
+				<h3 class="titulo-principal">Informações</h3>
+
+				<div class="conteudo-informaçoes">
+					<ul class="lista-informaçoes">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Responsabilidade</li>
+						<li class="itens">Leva e Traz</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="informações.jpg" class="imagem-informaçoes">
+
+                    <div class="video">
+                        
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4W8UtT5XGYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<div class="video">
+
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Pet Shop Stella - 2022</p>
+		</footer>
+	</body>
 </html>
