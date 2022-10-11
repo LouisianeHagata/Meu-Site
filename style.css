@@ -89,7 +89,7 @@ footer {
 }
 
 .copyright {
-color: #FFFFFF;
+color: #000000;
 font-size: 13px;
 margin: 20px 0 0;
 }
@@ -250,7 +250,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-informaçoes, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
 
@@ -262,21 +262,8 @@ td, th {
 		position: static;
 	}
 
-	.lista-informaçoes, .imagem-informaçoes {
+	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
 
-.copyright{
-
-color: #000000;
-}
-
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-
-
-
-
+    
