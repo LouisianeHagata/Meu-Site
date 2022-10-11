@@ -22,7 +22,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #b96de6;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -80,7 +80,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background:#ffffff url("bg.jpg");
     padding: 40px 0;
 }
 
